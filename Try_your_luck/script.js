@@ -1,4 +1,4 @@
-var randomNumber = getRandomNumber(10);
+var randomNumber = getRandomNumber(3);
 var guess;
 var guessCount = 0;
 var correctGuess = false;
@@ -13,9 +13,9 @@ alert('!!Try your luck !! \n\n\ Here is a game which decides your Luck \n\n\ The
 
 while(true){ 
    guessCount +=1;
-guess = prompt('whom are you expecting among 1 to 10?');
+guess = prompt('Guess any number from [0--->3]');
 
- if(parseInt(guess) === randomNumber){
+ if(Int(guess) === randomNumber){
          correctGuess=true;
         break;
       }    
