@@ -1,4 +1,4 @@
-var randomNumber = getRandomNumber(3);
+var randomNumber = getRandomNumber(10);
 var guess;
 var guessCount = 0;
 var correctGuess = false;
